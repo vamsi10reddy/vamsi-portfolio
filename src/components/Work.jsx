@@ -8,18 +8,40 @@ const Work = () => {
       role: 'Graduate Research Assistant',
       company: 'Texas Tech University',
       period: 'Aug 2023 – May 2025',
-      description:
-        'Working on secure cloud infrastructure design, DevOps tooling, and academic systems testing automation.',
+      description: (
+        <ul className="list-disc list-outside pl-5 text-left space-y-2">
+      <li>Design and execute detailed manual test cases based on academic project requirements, ensuring functionality and user experience standards.</li>
+      <li>Maintain test documentation, reports, and traceability matrices to ensure quality control in student-led and research-driven projects.</li>        
+      </ul>
+      ),
       image: 'ttu.png',
     },
     {
       role: 'Software Development Engineer in Test',
       company: 'Accenture',
       period: 'Jul 2021 – July 2023',
-      description:
-        'Automated testing for Google Wearable devices, built frameworks using Selenium and Appium, collaborated across teams to ensure high-quality product delivery.',
+      description: (
+        <ul className="list-disc list-outside pl-5 text-left space-y-2">
+          <li>Migrated manual QA workflows into CI/CD-integrated automation pipelines to improve deployment speed, reliability, and system quality for Google product teams.</li>
+          <li>Automated test flows using Mobly and Copycat, reducing test execution time by 70% and minimizing manual errors.</li>
+          <li>Built UI automation for Android phones, Wear OS watches, and TVs using Mobly and UIAutomator.</li>
+          <li>Created reusable test flows using UICD (UI Test Creator) for Android and wearable platforms, improving regression testing efficiency.</li>
+          <li>Executed automated UI test suites on remote and virtual Android devices within nightly CI pipelines to catch UI regressions early.</li>
+          <li>Developed Bash and Python scripts to simulate device behavior, trigger nightly Jenkins builds, and generate dashboards for Google Wearables and Assistant devices.</li>
+          <li>Used Piper for version control and Critique/CitC for code reviews in multiple test environments.</li>
+          <li>Containerized legacy desktop test environments using Docker to improve consistency and repeatability.</li>
+          <li>Built self-healing automation scripts using Healenium to manage dynamic UI changes and reduce maintenance by 40%.</li>
+          <li>Designed Jenkins-integrated CI/CD workflows to support test execution and deployment validation across various devices.</li>
+          <li>Set up cloud-hosted Android virtual devices to simulate real-world scenarios for deployment validation.</li>
+          <li>Monitored test health and regression trends using internal dashboards and CI artifacts, and supported debugging via logs and screenshots.</li>
+          <li>Worked in Agile sprint cycles, providing feedback to developers and infrastructure teams to resolve deployment issues.</li>
+          <li>Migrated over 80 daily test cases from manual to automated, increasing test coverage, reliability, and release speed.</li>
+          <li>Logged defects, performed root cause analysis, and collaborated with developers to resolve issues across test cycles.</li>
+        </ul>
+      ),
       image: 'accenture.png',
-    },
+    }
+    
   ];
 
   return (

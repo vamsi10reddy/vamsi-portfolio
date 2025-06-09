@@ -7,7 +7,7 @@ const projects = [
     description: 'Django e‑commerce app for managing products, inventory, and payments.',
     tech: ['Django', 'HTML', 'CSS', 'SQLite'],
     demo: '#',
-    github: '#',
+    github: 'https://github.com/vamsi10reddy/Django_SpeedESales',
   },
 ];
 

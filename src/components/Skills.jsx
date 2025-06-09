@@ -11,7 +11,7 @@ import {
   FaCss3Alt,
   FaJenkins,
 } from 'react-icons/fa';
-import { SiPostman, SiSelenium } from 'react-icons/si';
+import { SiSelenium } from 'react-icons/si';
 
 const skills = [
     // Programming Languages
@@ -31,7 +31,6 @@ const skills = [
   
     // Testing Tools
     { name: 'Selenium', icon: SiSelenium },
-    { name: 'Postman', icon: SiPostman },
   ];
   
 

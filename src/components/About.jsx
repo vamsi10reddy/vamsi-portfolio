@@ -14,10 +14,7 @@ const About = () => {
     >
       <h2 className="text-3xl font-bold mb-8 text-white">About Me</h2>
       <p className="text-lg text-gray-100 dark:text-gray-300 leading-relaxed mt-4">
-        I’m a Software Development Engineer in Test with strong skills in automation, DevOps, and quality engineering.
-        Passionate about solving problems, building scalable systems, and continuously learning.
-        With a Master's degree in Computer Science and industry experience at Accenture,
-        I specialize in building robust testing frameworks and deploying secure infrastructure.
+      I'm Vamsi Reddy Bearala, a DevOps and Automation Engineer with 2+ years of industry experience and a Master’s in Computer Science from Texas Tech University. I specialize in CI/CD, cloud infrastructure, and test automation using tools like Python, Docker, Jenkins, and AWS.
       </p>
     </motion.section>
   );
