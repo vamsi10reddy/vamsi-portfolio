@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 const Work = () => {
   const experiences = [
     {
-      role: 'Graduate Research Assistant',
+      role: 'Graduate Assistant',
       company: 'Texas Tech University',
       period: 'Aug 2023 – May 2025',
       description: (
